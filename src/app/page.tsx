@@ -1,5 +1,5 @@
 import React from 'react';
-import Image from "next/image";
+import Image from 'next/image';
 
 const Portfolio = () => {
   return (
@@ -16,10 +16,10 @@ const Portfolio = () => {
       </header>
       <section id='home' className='flex flex-col items-center justify-center p-10 bg-gray-100 shadow-lg rounded-lg my-5'>
         <h2 className='text-5xl text-blue-600 mb-5'>Home</h2>
-        <img src='https://picsum.photos/200/300' alt='Profile Picture' className='w-44 h-44 rounded-full border-4 border-blue-600 mb-5 transition-transform duration-300 hover:scale-105' />
+        <Image src='https://picsum.photos/200/300' alt='Profile Picture' className='w-44 h-44 rounded-full border-4 border-blue-600 mb-5 transition-transform duration-300 hover:scale-105' />
         <p className='text-lg text-gray-700'>Hello! I'm Uzair Ahmed, a passionate web developer with skills in JavaScript, React, and CSS.</p>
-        <h3 className='text-3xl mt-5'>And I'm a <span className='font-bold'>Frontend Developer</span></h3>
-        <p className='text-lg text-gray-600 mt-3'>Front-End Developer Responsibilities: Collaborate with designers, optimize applications, develop features, and maintain brand consistency for user-facing interfaces.</p>
+        <h3 className='text-3xl mt-5'>And I am a <span className='font-bold'>Frontend Developer</span></h3>
+        <p className='text-lg text-gray-600 mt-3'>Front-End Developer Responsibilities Collaborate with designers optimize applications develop features and maintain brand consistency for user-facing interfacesg</p>
       </section>
       <section id='about' className='bg-gradient-to-r from-blue-300 to-green-500 p-10 rounded-lg shadow-lg my-5'>
         <h2 className='text-4xl text-white text-center mb-5'>About</h2>
